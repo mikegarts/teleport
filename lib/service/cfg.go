@@ -428,6 +428,7 @@ type SSHConfig struct {
 	Labels                map[string]string
 	CmdLabels             services.CommandLabels
 	PermitUserEnvironment bool
+	ReuseConnIotMode      bool
 
 	// PAM holds PAM configuration for Teleport.
 	PAM *pam.Config
